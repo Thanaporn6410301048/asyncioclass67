@@ -1,4 +1,5 @@
 # running a function in another thread
+
 # รันฟังก์ชันในอีกเธรดหนึ่ง
 
 from time import sleep, ctime
@@ -23,3 +24,4 @@ thread.start()
 print(f'{ctime()} from main thread')
 
 thread.join()
+

@@ -1,4 +1,5 @@
 # running a function with arguments in another thread
+
 # รันฟังก์ชันในอีกเธรดหนึ่ง
 
 from time import sleep, ctime
@@ -28,5 +29,6 @@ thread.start()
 
 # รอให้เธรดเสร็จสิ้น
 print(f"{ctime()} รอเธรด...")
+
 
 thread.join()

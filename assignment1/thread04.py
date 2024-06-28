@@ -21,5 +21,5 @@ thread = CustomThread()
 thread.start()
 
 # Wait for the thread to finish
-print(f'{ctime()} Waiting for the thread to finish')
 thread.join()
+print(f'{ctime()} Waiting for the thread to finish')
